@@ -24,7 +24,6 @@ makeCacheMatrix <- function(x = matrix()) {
          getinv = getinv)
 }
 
-
 ## This function will search and return the inverse of a given matrix from
 ## the cache (avoiding the calculation again). 
 ## If data does not exist, it will calculate the inverse of the matrix.
